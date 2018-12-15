@@ -11,8 +11,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- You can use Open Graph tags to customize link previews.
+		Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+		<meta property="og:url"           content="https://01122021.eu" />
+		<meta property="og:type"          content="website" />
+		<meta property="og:title"         content="Kirja toipumisesta" />
+		<meta property="og:description"   content="Your description" />
+		<meta property="og:image"         content="images/a1.jpg" />
+
 	</head>
 	<body class="is-preload">
+
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v3.2';
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -21,9 +39,13 @@
 					<header id="header" class="alt">
 						<h1><a href="index.html">Kirja toipumisesta</a></h1>
 						
+						<!--
 						<nav>
-							<a href="https://www.facebook.com/sharer/sharer.php?test.html" target="_blank">Jaa Facebookissa</a>
-							<a href="www.testi.fi" target="_blank">Twitterissä</a>						
+						<div class="fb-share-button" data-href="https://01122021.eu" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F01122021.eu%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Jaa</a></div>
+						</nav>
+						-->
+						<nav>	
+							<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F01122021.eu%2F&amp;src=sdkpreparse" target="_blank">Jaa Facebookissa</a>						
 						</nav>
 					</header>
 
@@ -136,11 +158,11 @@
 										<h2 class="major">Kiitos</h2>
 										<p>Voit auttaa jakamalla tietoa tai valitsemalla sinulle sopivan vastikkeen mesenaatti.me -sivulla. Paljon kiitoksia tuestasi!
 										</p>
-										<a href="https://www.facebook.com/sharer/sharer.php?test.html" target="_blank">
+										<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F01122021.eu%2F&amp;src=sdkpreparse" target="_blank">
 											 Jaa facebookissa
 										</a>
 										<br/>
-										<a href="https://www.facebook.com/sharer/sharer.php?test.html" target="_blank">
+										<a href="https://www.facebook.com/sharer/sharer.php?" target="_blank">
 											Jaa Twitterissä
 									   </a>
 									</div>
