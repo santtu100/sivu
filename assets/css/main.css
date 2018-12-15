@@ -2708,6 +2708,12 @@ body.is-preload #banner p {
 }
 
 @media print {
+  body, html, section, article {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+
   a:after {
     content: none;
   }
@@ -2716,19 +2722,16 @@ body.is-preload #banner p {
     display: none;
   }
 
-  /*
-  #container #content #main {
-      width: 100%;
-      margin: 0px;
-      padding: 0px;
-  }
-  */
   section {
     page-break-before: always;
   }
 
   section[id=four] {
     page-break-before: avoid;
+  }
+
+  section[id=footer] {
+    display: none;
   }
 
   * {

@@ -5,6 +5,12 @@
         text-transform: capitalize;
     }
 
+    body,html, section, article{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top:0px;
+    }
+
     a:after {
         content: none;
     }
@@ -21,6 +27,9 @@
         page-break-before:avoid;
     }
 
+    section[id="footer"]{
+        display: none;
+    }
 
     * {
         color: #000;    
