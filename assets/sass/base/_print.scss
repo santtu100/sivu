@@ -1,0 +1,30 @@
+@media print {
+    @mixin heading-style { 
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    a:after {
+        content: none;
+    }
+
+    header[role="banner"],footer{
+        display: none;
+    }
+
+    section{
+        page-break-before: always;
+    }
+
+    section[id="four"]{
+        page-break-before:avoid;
+    }
+
+
+    * {
+        color: #000;    
+        background-color: #fff;
+    }
+
+}

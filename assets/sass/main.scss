@@ -34,17 +34,17 @@
 
 	@import 'components/row';
 	@import 'components/section';
-	@import 'components/form';
-	@import 'components/box';
+	//@import 'components/form';
+	//@import 'components/box';
 	@import 'components/icon';
 	@import 'components/image';
-	@import 'components/list';
-	@import 'components/actions';
+	//@import 'components/list';
+	//@import 'components/actions';
 	@import 'components/icons';
-	@import 'components/contact';
+	//@import 'components/contact';
 	@import 'components/pagination';
-	@import 'components/table';
-	@import 'components/button';
+	//@import 'components/table';
+	//@import 'components/button';
 	@import 'components/features';
 
 // Layout.
@@ -54,3 +54,6 @@
 	@import 'layout/banner';
 	@import 'layout/wrapper';
 	@import 'layout/footer';
+
+// Print
+	@import 'base/print'
