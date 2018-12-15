@@ -27,6 +27,11 @@
         page-break-before:avoid;
     }
 
+    section[id="features"]{
+        page-break-before: avoid;
+        page-break-after: always;
+    }
+
     section[id="footer"]{
         display: none;
     }

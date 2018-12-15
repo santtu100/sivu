@@ -2730,6 +2730,11 @@ body.is-preload #banner p {
     page-break-before: avoid;
   }
 
+  section[id=features] {
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+
   section[id=footer] {
     display: none;
   }
