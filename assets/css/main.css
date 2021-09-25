@@ -35,7 +35,7 @@ body {
 }
 
 ol, ul {
-  list-style: none;
+  list-style: circle;
 }
 
 blockquote, q {
@@ -1816,6 +1816,12 @@ ul.pagination li:last-child {
     margin-left: -1.5em;
     margin-top: -1.5em;
     width: calc(100% + 3em);
+  }
+  .features article .image1 {
+    margin-bottom: 1.5em;
+    margin-left: -1.5em;
+    margin-top: -1.5em;
+    width: calc(50% + 3em);
   }
 }
 @media screen and (max-width: 480px) {
